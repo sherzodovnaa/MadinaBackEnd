@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="Library.DB" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3419"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="Products" custom_title="0" dock_id="6" table="4,8:mainProducts"/><dock_state state="000000ff00000000fd0000000100000002000004ba000002e6fc0100000002fb000000160064006f0063006b00420072006f00770073006500310100000000000003e10000000000000000fb000000160064006f0063006b00420072006f00770073006500360100000000000004ba0000012800ffffff000004ba0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="BOOKS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="31"/><column index="2" value="78"/><column index="3" value="85"/><column index="4" value="39"/><column index="5" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Category" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="77"/><column index="2" value="169"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Client" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="69"/><column index="3" value="66"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="76"/><column index="3" value="139"/><column index="4" value="207"/><column index="5" value="78"/><column index="6" value="111"/><column index="7" value="46"/><column index="8" value="46"/><column index="9" value="47"/><column index="10" value="109"/><column index="11" value="39"/><column index="12" value="118"/><column index="13" value="85"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Profile" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="174"/><column index="2" value="131"/><column index="3" value="167"/><column index="4" value="131"/><column index="5" value="126"/><column index="6" value="105"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">insert into BOOKS (title, author, year, genre) values ('Mrs', 'Cletus', 2005, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Shawnee', 1993, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Robinet', 1986, 'Crime|Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Abagail', 2007, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Pippa', 1994, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Anna-diane', 1988, 'Action|Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Dorene', 2012, 'Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Agosto', 2003, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Cordey', 2010, 'Drama|Musical');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Aguste', 2001, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Land', 2009, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Kimmy', 1995, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Abra', 1985, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Kinny', 2004, 'Action|Adventure');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Thain', 1994, 'Comedy|Romance');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Erroll', 2002, 'Action|War|Western');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Chaddie', 2003, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Warner', 2008, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Wilow', 1987, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Starlene', 2000, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Sharai', 2008, 'Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Adan', 2001, 'Comedy|Drama|Fantasy|Mystery');
+insert into BOOKS (title, author, year, genre) values ('Rev', null, 2012, 'Action|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Bobbee', 2002, 'Comedy|Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Jarib', 1976, 'Action|Adventure|War');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Ric', 1996, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Collete', 1998, 'Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Ellissa', 1991, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Renaud', 2003, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Kelila', 2007, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Terrell', 2012, 'Action');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Tildy', 2003, 'Romance');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Flossie', 1995, 'Animation|Drama|Fantasy|Mystery');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Scotty', null, 'Adventure|Romance');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Corrie', 2005, 'Drama|War');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Esma', 1995, 'Action|Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Faith', 2008, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Philis', 1999, 'Comedy|Fantasy|Romance');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Delano', 2011, 'Action|Drama|Musical|Romance');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Clement', 2006, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Zondra', 2002, 'Horror|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Ketti', 2012, 'Adventure|Animation|Sci-Fi');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Harley', 2007, 'Drama|Horror|Mystery|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Effie', 2007, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Ronny', 2011, 'Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Kikelia', 1992, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Jon', null, 'Fantasy|Sci-Fi');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Farlay', 2001, 'Drama|Horror|Mystery|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Darby', 2001, 'Comedy|Drama|Musical');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Kendrick', 1970, 'Action|Adventure|Western');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Jennette', 2001, 'Comedy|Drama|Musical');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Bink', 1996, 'Action|Adventure');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Rita', 1986, 'Drama|Mystery');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Jules', 2007, 'Drama|Mystery|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Solly', 2008, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Mozes', 2011, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Corilla', 2011, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Adela', 1999, 'Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Jeremie', 1992, 'Comedy|Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Alisa', 2003, 'Adventure|Comedy|War');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Salmon', null, 'Sci-Fi');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Gusty', 1995, 'Action|Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Clemens', 2001, 'Action|Drama|War');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Isahella', 1999, 'Crime|Drama|Mystery');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Jessalin', 1999, 'Comedy|Drama|Romance');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Karla', 2012, 'Comedy|Romance');
+insert into BOOKS (title, author, year, genre) values ('Dr', null, 2003, 'Crime|Drama|Mystery|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Prudi', 1998, 'Animation');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Lynnelle', 2001, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Ellynn', 1992, 'Horror');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Sara', 2001, 'Adventure|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Corrine', 2010, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Granville', 1997, 'Comedy|Crime|Romance');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Mariya', 1998, 'Drama|Romance|War');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Rolph', 2012, 'Action|Adventure|Drama');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Berget', 1986, 'Action|Crime|Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Rodrique', 1993, 'Action|Adventure');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Nate', 2010, 'Action|Adventure|War');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Veronica', 2007, 'Comedy|Horror');
+insert into BOOKS (title, author, year, genre) values ('Honorable', null, 1998, 'Adventure|Animation|Children|Comedy|Crime');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Der', null, 'Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Mrs', 'Stillman', 2003, 'Crime|Drama|Film-Noir');
+insert into BOOKS (title, author, year, genre) values ('Mr', null, 2009, 'Action|Drama|War');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Celestyn', 1999, 'Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Robbin', 2006, 'Crime|Drama');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Brook', 2005, 'Adventure|Romance');
+insert into BOOKS (title, author, year, genre) values ('Dr', 'Gwennie', 1996, 'Drama|Mystery|War');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Joshua', 1993, 'Drama|Horror|Thriller');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Norbert', 2011, 'Comedy|Drama');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Baldwin', 2011, 'Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Mommy', 1987, 'Adventure|Children|Drama');
+insert into BOOKS (title, author, year, genre) values ('Ms', 'Sig', 2006, 'Thriller');
+insert into BOOKS (title, author, year, genre) values ('Rev', null, 2004, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Hertha', 2007, 'Comedy|Crime');
+insert into BOOKS (title, author, year, genre) values ('Honorable', 'Dominique', 1993, 'Western');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Tate', 2011, 'Documentary');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Franky', 2009, 'Adventure|Animation|Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Maximilian', 2009, 'Comedy');
+insert into BOOKS (title, author, year, genre) values ('Mr', 'Cob', 2010, 'Musical|Romance');
+insert into BOOKS (title, author, year, genre) values ('Rev', 'Cart', 1992, 'Action|Comedy');</sql><sql name="SQL 2">SELECT * FROM BOOKS WHERE title like &quot;%s&quot;;
+SELECT * FROM BOOKS WHERE author like &quot;C%&quot;;
+SELECT * FROM BOOKS WHERE year like &quot;2005&quot;
+SELECT * FROM BOOKS WHERE genre like &quot;Comedy&quot;;
+SELECT title, author, genre, id FROM BOOKS;
+
+UPDATE BOOKS SET title='F4' WHERE id=2;
+UPDATE BOOKS SET year='2006' WHERE id=19;
+UPDATE BOOKS SET genre='Horror' WHERE id=28;
+UPDATE BOOKS SET author='Den' WHERE id=1;
+UPDATE BOOKS SET title='Ben' WHERE id=35;
+
+DELETE FROM BOOKS WHERE id=15;
+DELETE FROM BOOKS WHERE id=99;</sql><sql name="SQL 3">CREATE TABLE Profile ( id INTEGER NOT NULL, 
+user name VARCHAR(20),
+bio VARCHAR(50),
+birthday DATE,
+phone VARCHAR(9),
+client_id INTEGER NOT NULL UNIQUE,
+FOREIGN KEY (client_id) REFERENCES Client (id),
+PRIMARY KEY(id AUTOINCREMENT));
+
+DROP TABLE Profile;
+
+
+CREATE TABLE  Client (id INTEGER NOT NULL,
+first_name VARCHAR(20),
+last_name VARCHAR(20),
+PRIMARY KEY(id AUTOINCREMENT));
+
+SELECT * FROM Client JOIN Profile ON client_id == Profile.client_id
+SELECT * FROM Client LEFT JOIN Profile ON client_id == Profile.client_id
+SELECT * FROM Client  RIGHT JOIN Profile ON client_id == Profile.client_id
+
+
+SELECT * FROM Products as p JOIN category as c ON p.category_id == c.id WHERE c.id=7;
+
+
+</sql><sql name="SQL 4">CREATE TABLE Category (
+id INTEGER NOT NULL,
+name VARCHAR(50) NOT NULL,
+PRIMARY KEY (id AUTOINCREMENT));
+
+CREATE TABLE Products (
+id INTEGER NOT NULL,
+category_id INTEGER NOT NULL,
+name VARCHAR(120) NOT NULL,
+description VARCHAR(1000),
+price REAL DEFAULT 0,
+discount_precent REAL DEFAULT 0,
+stock REAL, 
+unit TEXT CHECK( unit in (&quot;kg&quot;, &quot;l&quot;, &quot;g&quot;, &quot;ml&quot;, &quot;piece&quot;, &quot;box&quot;)) NOT NULL,
+weight REAL,
+dimensions TEXT NULL,
+size TEXT CHECK( size in ('XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL', '40', '42', '44', '46', '48', '50', '52', 'P', 'T') OR size IS NULL),
+manufactured_date DATE,
+expiry_date DATE,
+FOREIGN KEY (category_id) REFERENCES Category (id),
+PRIMARY KEY (id AUTOINCREMENT));
+
+
+SELECT * FROM Products as p JOIN category as c ON p.category_id == c.id WHERE c.id=10;
+</sql><sql name="SQL 9">INSERT INTO Products (category_id, name, description, price, discount_precent, stock, unit, weight, dimensions, size, manufactured_date, expiry_date)
+VALUES
+(5, 'Planshet', 'Yuqori aniqlikdagi ekran va tezkor ishlash', 4500000, 8, 10, 'piece', NULL, '20x12x1 cm', NULL, '2024-02-10', NULL),
+(3, 'Ko‘zoynak', 'Zamonaviy dizayndagi quyoshdan himoya ko‘zoynagi', 250000, 10, 50, 'piece', NULL, NULL, NULL, '2024-01-20', NULL),
+(7, 'Anna Karenina', 'Lev Tolstoyning mashhur asari', 200000, 5, 70, 'piece', NULL, NULL, NULL, '2023-12-10', NULL),
+(9, 'Tovuq yemi', 'Organik vitaminli tovuq yemi', 175000, 6, 30, 'kg', 5, NULL, NULL, '2024-02-01', '2025-02-01'),
+(2, 'Kurtka', 'Qishki issiq kurtka', 600000, 15, 20, 'piece', NULL, NULL, 'XL', '2024-01-05', NULL),
+(10, 'Qizil lola', 'Tabiiy guldasta', 280000, 4, 15, 'piece', NULL, NULL, NULL, '2024-02-07', NULL),
+(4, 'Bolga', 'Chelikdan yasalgan mustahkam bolga', 25000, 3, 75, 'piece', NULL, NULL, NULL, '2024-01-28', NULL),
+(8, 'Shlakoblok', 'Sifatli qurilish materiali', 25000, 1, 500, 'piece', NULL, NULL, NULL, '2024-02-05', NULL),
+(1, 'Tuz 1 kg', 'Toza osh tuzi', 7000, 2, 300, 'kg', 1, NULL, NULL, '2024-02-01', '2025-02-01'),
+(6, 'Changyutgich', 'Kuchli motorli changyutgich', 2500000, 7, 12, 'piece', NULL, '40x30x25 cm', NULL, '2024-01-15', NULL),
+(11, 'Marker', 'Doska uchun qora marker', 5000, 0, 250, 'piece', NULL, NULL, NULL, '2024-02-01', NULL),
+(13, 'Sport kiyimi', 'Professional sportchilar uchun maxsus kiyim', 550000, 9, 30, 'piece', NULL, NULL, 'L', '2024-01-10', NULL),
+(3, 'Charm hamyon', 'Qo‘lda ishlangan charm hamyon', 350000, 5, 40, 'piece', NULL, NULL, NULL, '2024-01-22', NULL),
+(5, 'Quvvatlagich', 'Tez quvvatlovchi adapter', 150000, 3, 100, 'piece', NULL, '5x5x2 cm', NULL, '2024-02-01', NULL),
+(12, 'Shkaf', 'Katta hajmli yog‘och shkaf', 3500000, 8, 6, 'piece', NULL, '200x100x50 cm', NULL, '2024-01-25', NULL),
+(7, 'Jang san’ati bo‘yicha kitob', 'Jang san’ati sirlarini o‘rgatuvchi qo‘llanma', 180000, 4, 60, 'piece', NULL, NULL, NULL, '2023-11-30', NULL),
+(9, 'Akvarium baliq ozuqasi', 'Vitaminlarga boy baliq ozuqasi', 130000, 5, 45, 'kg', 1, NULL, NULL, '2024-02-12', '2025-02-12'),
+(10, 'Kaktus guli', 'Xonadon uchun ajoyib o‘simlik', 120000, 3, 35, 'piece', NULL, NULL, NULL, '2024-02-08', NULL),
+(2, 'Krossovka', 'Engil va qulay sport poyabzali', 750000, 12, 25, 'piece', NULL, NULL, '42', '2024-01-18', NULL);
+
+
+
+INSERT INTO Products (category_id, name, description, price, discount_precent, stock, unit, weight, dimensions, size, manufactured_date, expiry_date)
+VALUES
+(4, 'Perforator', 'Qurilish uchun elektr asbob', 1200000, 10, 15, 'piece', NULL, '30x20x10 cm', NULL, '2024-02-05', NULL),
+(6, 'Mikroto‘lqinli pech', 'Multifunksional mikroto‘lqinli pech', 1800000, 8, 7, 'piece', NULL, '45x35x30 cm', NULL, '2024-02-10', NULL),
+(1, 'Qora mosh 1 kg', 'Tabiiy qora mosh', 25000, 4, 80, 'kg', 1, NULL, NULL, '2024-01-25', '2025-01-25'),
+(3, 'Smart soat', 'Qon bosimi va yurak urishini o‘lchovchi', 900000, 12, 20, 'piece', NULL, NULL, NULL, '2024-01-30', NULL),
+(7, 'Nutq san’ati', 'Samarali muloqot bo‘yicha kitob', 135000, 5, 60, 'piece', NULL, NULL, NULL, '2023-12-20', NULL),
+(10, 'Gullar to‘plami', 'Turli xil gullardan iborat buket', 320000, 7, 18, 'piece', NULL, NULL, NULL, '2024-02-12', NULL),
+(5, 'Powerbank', '10,000 mAh quvvatlagich', 350000, 6, 40, 'piece', NULL, '10x7x2 cm', NULL, '2024-02-01', NULL),
+(8, 'Beton aralashmasi', 'Mustahkam qurilish materiali', 600000, 5, 25, 'kg', 50, NULL, NULL, '2024-01-20', NULL),
+(2, 'Ko‘ylak', 'Yangi uslubdagi erkaklar ko‘ylagi', 350000, 10, 45, 'piece', NULL, NULL, 'M', '2024-01-15', NULL),
+(9, 'It uchun uycha', 'Yog‘ochdan yasalgan mustahkam uycha', 850000, 8, 10, 'piece', NULL, '80x50x50 cm', NULL, '2024-02-02', NULL),
+(13, 'Qo‘l gantellari', 'Fitness uchun 10 kg lik gantellar', 550000, 9, 20, 'piece', 10, NULL, NULL, '2024-01-28', NULL),
+(11, 'Qalam', 'O‘chiriladigan qora rangli qalam', 3000, 0, 600, 'piece', NULL, NULL, NULL, '2024-02-07', NULL),
+(12, 'Oshxona jihozlari to‘plami', 'Tayyorlash uchun 5 xil asbob', 950000, 6, 10, 'piece', NULL, '50x30x20 cm', NULL, '2024-01-12', NULL),
+(6, 'Chang yutgich filtri', 'Changyutgich uchun maxsus filtrlash tizimi', 120000, 3, 50, 'piece', NULL, '15x10x5 cm', NULL, '2024-01-18', NULL),
+(3, 'Kredit karta g‘ilofi', 'Charm materialdan himoyalangan g‘ilof', 75000, 5, 100, 'piece', NULL, NULL, NULL, '2024-01-22', NULL),
+(7, 'Falsafa kitobi', 'Yangi avlod uchun falsafiy asar', 210000, 6, 50, 'piece', NULL, NULL, NULL, '2023-12-15', NULL),
+(1, 'Qora choy 250g', 'Tabiiy qora choy', 45000, 3, 150, 'g', 0.25, NULL, NULL, '2024-02-05', '2025-02-05'),
+(10, 'Orxideya guli', 'Chiroyli xonaki guldasta', 450000, 5, 12, 'piece', NULL, NULL, NULL, '2024-02-11', NULL),
+(2, 'Ish shim', 'Ofis uchun mos shim', 400000, 7, 35, 'piece', NULL, NULL, 'L', '2024-01-20', NULL);</sql><current_tab id="3"/></tab_sql></sqlb_project>
